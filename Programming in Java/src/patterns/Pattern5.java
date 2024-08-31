@@ -226,19 +226,45 @@ public class Pattern5 {
 		
 		
 
-//		        int n = 5; // Number of rows
-//		        int number = 1; // Start number
+//		        int n = 5; 
+//		        int number = 1; 
 //
-//		        for (int i = 1; i <= n; i++) {  // Loop for rows
-//		            int current = number + i - 1;  // Calculate the starting number for the current row
+//		        for (int i = 1; i <= n; i++) {  
+//		            int current = number + i - 1; 
 //		            
-//		            for (int j = 1; j <= i; j++) {  // Loop for columns in each row
-//		                System.out.print(current-- + " ");  // Print the number and decrement it
+//		            for (int j = 1; j <= i; j++) { 
+//		                System.out.print(current-- + " ");  
 //		            }
-//		            number += i;  // Update the start number for the next row
-//		            System.out.println();  // New line after each row
+//		            number += i;  
+//		            System.out.println();  
 //		        }
+		        
+		        
+		        
+//				int k=1;
+//				int rows=5;
+//				for(int i=1;i<=rows;i++) {
+//					for(int j=1;j<=i;j++) {
+//						System.out.print(k+" ");
+//						k--;
+//					}
+//					k=k+(2*i)+1;
+//					System.out.println();
+//				}
 		
+		
+		int rows=5;
+		int sum=0;
+		for(int i=1;i<=rows;i++) {
+			sum=sum+i;
+			int k=sum;
+			for(int j=1;j<=i;j++) {
+				System.out.print(k+" ");
+				k--;
+			}
+			System.out.println();
+		}
+		        
 		
 }
 }
