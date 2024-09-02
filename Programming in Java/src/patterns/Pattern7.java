@@ -198,12 +198,13 @@ public class Pattern7 {
 //			System.out.println();
 //		}
 		
-//		  * *   * *   
-//		  *     *     * 
-//		  *           * 
-//		    *       *   
-//		      *   *     
-//		        *       
+//   * *   * *   
+// *     *     * 
+// *          * 
+//   *       *   
+//     *   *     
+//       *       
+    
 
 		
 //		int rows=6;
@@ -219,6 +220,16 @@ public class Pattern7 {
 //			}
 //			System.out.println();
 //		}
+
+
+
+//   * *   * *   
+// *     *     * 
+// *   R C B   * 
+//   *       *   
+//     *   *     
+//       *       
+
 		
 		
 		int rows=6;
